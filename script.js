@@ -55,7 +55,15 @@
 
 // N4 -?????
 
-
+// const getPerson = (person) => {
+//     return { ...person, status: "New", point: 40, age: 30}
+// }
+//     const student = {
+//         name: "John",
+//         age: 40,
+//     }
+//     getPerson(student);
+//     console.log(student)
 // N5
 
 // function compare(x, y) {
@@ -83,6 +91,8 @@
 // console.log(text)
 
 // N7 ???
+
+
 
 
 // N8
@@ -116,3 +126,4 @@ function getFullNameOnAlert() {
         alert(`Hello ${name}`)
     })
 }
+
