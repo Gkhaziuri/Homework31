@@ -27,7 +27,9 @@
 // }
 
 //     afterResult(greeting)
+
 // N2
+
 // function greeting(name) {
 //     alert(`Welcome to our website ${name}`)
 // }
@@ -68,6 +70,8 @@
 // const numbers = compare(50, 50)
 // console.log(numbers);
 
+
+ 
 // N6
 
 // let text = ("Welcome to Tbilisi");
@@ -78,12 +82,37 @@
 // }
 // console.log(text)
 
-// N7
-
-
-
-
+// N7 ???
 
 
 // N8
-//  
+// function arrayToString(array) {
+//     return array.toString();
+// }
+// let numbersArray = [10, 20, 30, 40, 50];
+// let result = arrayToString(numbersArray);
+// console.log(result)
+
+
+// N9
+
+// function getName(name) {
+//     const myName = document.createElement("p");
+//     myName.textContent = name;
+//     document.body.appendChild(myName);
+// }   
+//     getName("Giorgi")
+
+
+// 10 ???
+
+function getFullNameOnAlert() {
+    const name = "Giorgi Khaziuri";
+    alert(`Hello, ${name}`);
+
+
+    let button = document.getElementById("click-button");
+    button.addEventListener("click", () => {
+        alert(`Hello ${name}`)
+    })
+}
